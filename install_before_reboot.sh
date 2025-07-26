@@ -24,4 +24,4 @@ echo "Installing Proxmox VE kernel..."
 apt install -y proxmox-default-kernel
 
 echo "✅ Pre-reboot setup complete."
-echo "⚠️ Please reboot the system now, then run the second script: install_after_reboot.sh"
+echo "⚠️ Please reboot the system now via 'systemctl reboot', then run the second script: install_after_reboot.sh"
